@@ -14,7 +14,7 @@
 
 ### Added
 
-- 初始中文 Skill：`.agents/skills/程序员未来/`
+- 初始中文 Skill：`.agents/skills/裁了吗/`
 - 核心决策文件：`SKILL.md`、`decision-tree.md`、`workflows.md`
 - 话术与边界文件：`scripts.md`、`boundaries.md`、`persona.md`、`scenarios.md`
 - 资源文件：
@@ -29,3 +29,4 @@
 
 - 项目定位为 Markdown Agent Skill 仓库，不包含前端/后端/数据库代码。
 - 默认服务对象为中国程序员职业危机场景。
+

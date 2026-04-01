@@ -1,16 +1,19 @@
-﻿# 程序员未来（Programmer Future）
+﻿# 裁了吗（Laid Off Yet?）
 
-> 面向中国程序员的职业重启 Agent Skill
+> 给中国程序员的职业重启决策 Skill（内部技能 ID：裁了吗）
 
-一个可被 Codex / OpenClaw / Claude Code 调用的中文 Markdown Skill。  
-核心价值：把“被裁后的混乱”变成“下一步可执行动作”。
+如果你现在脑子里像开了 40 个标签页，还都在转圈。  
+先别硬扛。这个仓库不是来安慰你的，是来帮你把“下一步”拎出来的。
+
+这是一个可被 Codex / OpenClaw / Claude Code 调用的中文 Markdown Agent Skill。  
+它不负责许愿，只负责把混乱拆成可执行动作。
 
 ## 项目亮点
 
-- 结构化输出：默认按 8 段决策结构输出
-- 真实场景覆盖：被裁、HR协商、竞业、转行、副业、仲裁
-- 直接可用：内置可复制话术与 checklist 清单
-- 风格克制：不鸡汤、不说教，强调现实可执行
+- 一眼可用：被裁、HR、竞业、转行、副业等高压场景直接分流
+- 输出有结构：默认按 8 段决策结构回答
+- 话术可复制：HR/领导/家人/面试场景都有模板
+- 行动可落地：当天、一周、30天、90天 checklist 全覆盖
 
 ## 快速导航
 
@@ -87,7 +90,7 @@
 ## 仓库结构说明
 
 ```text
-programmer-future-skill/
+programmer-future.skill/
 - README.md
 - LICENSE
 - AGENTS.md
@@ -98,7 +101,7 @@ programmer-future-skill/
 - RELEASE_NOTES_v0.1.md
 - .agents/
   - skills/
-    - 程序员未来/
+    - 裁了吗/
       - SKILL.md
       - persona.md
       - workflows.md
@@ -108,6 +111,8 @@ programmer-future-skill/
       - boundaries.md
       - resources/
         - *.md
+    - 程序员未来/
+      - README.md (兼容迁移说明)
 - examples/
   - example_*.md
 ```
@@ -115,13 +120,13 @@ programmer-future-skill/
 ## 如何安装 / 如何在 Agent 中使用
 
 1. 克隆仓库。
-2. 将 `.agents/skills/程序员未来/` 复制到你的 Agent Skills 目录。
+2. 将 `.agents/skills/裁了吗/` 复制到你的 Agent Skills 目录。
 3. 在 Agent 中加载 `SKILL.md`，再按 `decision-tree.md` 与 `workflows.md` 执行。
 
 调用示例：
 
 ```text
-请加载技能：程序员未来。
+请加载技能：裁了吗。
 我刚被裁，HR 催我今天签协商解除。
 请按技能结构输出：
 1）先稳住
@@ -131,6 +136,8 @@ programmer-future-skill/
 5）风险提醒
 6）7/30/90 天时间线
 ```
+
+兼容说明：旧技能名 `程序员未来` 仍保留迁移提示。
 
 ## 示例对话
 
@@ -156,7 +163,7 @@ programmer-future-skill/
 
 ## 项目定位总结
 
-这是一个面向中国程序员在裁员、职业迷茫、转型、副业和职业重启阶段的 AI Agent Skill，
+“裁了吗（Laid Off Yet?）”是一个面向中国程序员在裁员、职业迷茫、转型、副业和职业重启阶段的 AI Agent Skill，
 用于提供冷静、现实、可执行的决策与行动建议。
 
 ## 免责声明

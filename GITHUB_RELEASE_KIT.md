@@ -6,9 +6,9 @@
 
 ### 中文候选
 
-1. 面向中国程序员的职业重启 Agent Skill：被裁应对、方向决策与行动落地。
+1. “裁了吗”：面向中国程序员的职业重启 Agent Skill，覆盖被裁应对、方向决策与行动落地。
 2. 一个中文 Agent Skill，帮程序员在裁员与焦虑中恢复控制感并推进下一步。
-3. 聚焦“被裁之后”的开源 Skill 仓库：先稳住，再判断，再行动。
+3. 开源 Skill 仓库“裁了吗”：先稳住，再判断，再行动。
 
 ### English candidates
 
@@ -50,7 +50,7 @@
 
 #### 这是什么
 
-`programmer-future-skill` 是一个面向中国程序员的开源 Agent Skill 仓库。  
+`裁了吗` 是一个面向中国程序员的开源 Agent Skill 仓库。  
 它不是网站或 SaaS，而是一套可被 Agent 直接读取的 Markdown 决策与行动技能。
 
 #### 当前支持什么
@@ -79,7 +79,7 @@
 
 #### What this is
 
-`programmer-future-skill` is an open-source Chinese Agent Skill repository for software engineers facing career disruption.  
+`裁了吗` (Laid Off Yet?) is an open-source Chinese Agent Skill repository for software engineers facing career disruption.  
 It is not a web app or SaaS, but a markdown-first skill system for agent execution.
 
 #### What is supported now
@@ -122,4 +122,6 @@ It is not a web app or SaaS, but a markdown-first skill system for agent executi
 
 - 适合谁：被裁或职业转型中的中国程序员；需要现实决策支持的工程师。
 - 能解决什么：把“情绪 + 不确定性 + 信息压力”转成“可执行下一步、可复用话术和时间线计划”。
-- 怎么开始用：让 Agent 读取 `.agents/skills/程序员未来/SKILL.md`，按 `decision-tree.md` 分流并按 `workflows.md` 输出。
+- 怎么开始用：让 Agent 读取 `.agents/skills/裁了吗/SKILL.md`，按 `decision-tree.md` 分流并按 `workflows.md` 输出。
+
+

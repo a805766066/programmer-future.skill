@@ -4,11 +4,11 @@
 
 ### 版本名称
 
-v0.1 - 程序员未来（首个公开版本）
+v0.1 - 裁了吗（首个公开版本）
 
 ### 项目简介
 
-`programmer-future-skill` 是一个面向中国程序员的开源 Agent Skill 仓库。  
+`裁了吗` 是一个面向中国程序员的开源 Agent Skill 仓库。  
 它不是网站或 SaaS，而是可被 Agent 调用的 Markdown 决策与行动技能。
 
 ### 当前版本包含的功能
@@ -57,11 +57,11 @@ v0.1 - 程序员未来（首个公开版本）
 
 ### Version
 
-v0.1 - Programmer Future (Initial Public Release)
+v0.1 - Laid Off Yet\? (Initial Public Release)
 
 ### Project Summary
 
-`programmer-future-skill` is an open-source Chinese Agent Skill repository for software engineers facing career disruption.  
+`裁了吗` (Laid Off Yet?) is an open-source Chinese Agent Skill repository for software engineers facing career disruption.  
 It is not a web app or SaaS, but a markdown-first skill system for practical decision and action support.
 
 ### What’s Included in v0.1
@@ -103,3 +103,5 @@ It is not a web app or SaaS, but a markdown-first skill system for practical dec
 ### Positioning
 
 A practical Agent Skill for Chinese software engineers in career crisis, focused on: stabilize first, decide clearly, act next.
+
+
