@@ -7,6 +7,13 @@
   <p>—— 致每一位在工位上瞳孔地震的你</p>
 </div>
 
+<p align="center">
+  <strong>语言 / Language</strong><br>
+  <a href="README.md">中文</a>
+  · <a href="README.en.md">English</a>
+</p>
+<p align="center"><sub>说明：GitHub 仓库首页固定显示 <code>README.md</code>；英文说明见 <a href="README.en.md">README.en.md</a>。</sub></p>
+
 ---
 
 <h2 id="sec-what">🤔 裁了么是什么</h2>
@@ -35,9 +42,9 @@ Codex、OpenClaw、Claude Code 等 Agent 均可加载。
 - **行动清单**：当天、一周、30 天、90 天，每个阶段该干嘛，清清楚楚。
 - **就业导航仪**：`data/` 里有结构化岗位画像与推荐规则，帮你分析「我到底还能干什么」，告别「我好像什么都不会」的空虚感。
 
-**底层逻辑：** 情绪稳定 → 局面判断 → 分流 → 信息与策略 → 行动清单 → 风险预警 → 时间线 → 收束。一条龙服务。
+**底层逻辑（与 `workflows.md` 一致）：** 情绪稳定 → 局面判断 → 决策分流 → 信息与策略 → 行动清单 → 风险提醒 → 时间线 → 行动收束。
 
-**重要边界：** 我不是你的律师，也不是你的心理医生。我不会教你报复前司、删库跑路，或者把公司咖啡机搬回家。咱是体面人。
+**重要边界（与 `boundaries.md` 一致）：** 不提供确定法律结论或替代律师意见；不做心理诊断或医疗建议；不教唆报复、删库、泄密、擅自带走公司资产或商业秘密、破坏设备；不指导伪造或隐匿证据。详见 `.agents/skills/裁了吗/boundaries.md`。
 
 <h2 id="sec-who">🎯 适合谁</h2>
 
@@ -94,6 +101,7 @@ Laid-Off-Yet/
   - recommendation_rules.json
   - intake_questions.json
 - README.md
+- README.en.md
 - LICENSE
 - AGENTS.md
 - CONTRIBUTING.md
